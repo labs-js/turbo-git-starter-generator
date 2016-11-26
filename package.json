@@ -18,24 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/labs-js/turbo-git-starter-generator.git"
   },
-  "keywords": [
-    "yeoman-generator"
-  ],
-  "files": [
-    "generator/bin",
-    "generator/lib",
-    "generator/test",
-    "generator/index.js",
-    "generator/package.json",
-    "generator/README.md",
-    "generator/.eslintrc",
-    "generator/.gitignore",
-    "generator/.travis.yml",
-    "generator/.editorconfig",
-    "generator/.env"
-  ],
-  "dependencies": {
-    "yeoman-generator": "^0.24.1"
+    "dependencies": {
   },
   "author": "lab-js <https://github.com/labs-js>",
   "license": "MIT",
