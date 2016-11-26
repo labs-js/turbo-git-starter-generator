@@ -19,6 +19,7 @@
     "url": "git+https://github.com/labs-js/turbo-git-starter-generator.git"
   },
   "dependencies": {
+    "commander": "^2.9.0",
     "inquirer": "^1.2.3",
     "replace": "^0.3.0"
   },
