@@ -1,6 +1,6 @@
 {
   "name": "generator-turbo-git-package",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generator for a sub turbo-git module",
   "main": "index.js",
   "scripts": {
