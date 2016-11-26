@@ -1,7 +1,7 @@
 {
-  "name": "generator-turbo-git-package",
+  "name": "PACKAGE_NAME",
   "version": "0.0.0",
-  "description": "Generator for a sub turbo-git module",
+  "description": "PACKAGE_DESC",
   "main": "index.js",
   "scripts": {
     "test": "nyc jasmine-node --verbose --captureExceptions test"
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/labs-js/turbo-git-package.git"
+    "url": "git+https://github.com/labs-js/PACKAGE_NAME.git"
   },
   "keywords": [
     "turbo-git",
@@ -26,7 +26,7 @@
   "author": "lab-js <https://github.com/labs-js>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/labs-js/turbo-git-package/issues"
+    "url": "https://github.com/labs-js/PACKAGE_NAME/issues"
   },
-  "homepage": "https://github.com/labs-js/turbo-git-package#readme"
+  "homepage": "https://github.com/labs-js/PACKAGE_NAME#readme"
 }

@@ -1,1 +1,3 @@
-# generator-turbo-git-package
+# PACKAGE_NAME
+
+PACKAGE_DESC
