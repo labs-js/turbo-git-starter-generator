@@ -1,12 +1,28 @@
 #!bin/env node
-var generators = require('yeoman-generator');
 
-module.exports = generators.Base.extend({
-    // The name `constructor` is important here
-    constructor: function () {
-        'use strict';
-        // Calling the super constructor is important so our generator is correctly set up
-        generators.Base.apply(this, arguments);
-        // Next, add your custom code
-    }
-});
+(function() {
+    'use strict';
+    var inquirer = require('inquirer');
+    var questions = [{
+        type: 'input',
+        name: 'name',
+        message: 'Enter the package name',
+        validate: function(value) {
+            var pass = value.match("^(?:@([^/]+?)[/])?([^/]+?)$");
+            if (pass) {
+                return true;
+            }
+            return 'Please enter a valid npm package name';
+        }
+    },{
+        type: 'input',
+        name: 'desc',
+        message: 'Insert the package description'
+    }];
+    console.log('Turbo-git initial package files generator')
+    inquirer.prompt(questions).then(function(answers) {
+        // Use user feedback for... whatever!!
+        console.log(answers)
+    });
+
+})();
