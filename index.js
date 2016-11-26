@@ -14,15 +14,18 @@
             }
             return 'Please enter a valid npm package name';
         }
-    },{
+    }, {
         type: 'input',
         name: 'desc',
         message: 'Insert the package description'
     }];
-    console.log('Turbo-git initial package files generator')
-    inquirer.prompt(questions).then(function(answers) {
-        // Use user feedback for... whatever!!
-        console.log(answers)
-    });
+    require('./lib/logo-print')
+    setTimeout(promptQuestions,10);
+    function promptQuestions() {
+        inquirer.prompt(questions).then(function(answers) {
+            // Use user feedback for... whatever!!
+            console.log(answers)
+        });
+    }
 
 })();
