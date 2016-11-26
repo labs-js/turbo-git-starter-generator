@@ -19,6 +19,7 @@
     "url": "git+https://github.com/labs-js/turbo-git-starter-generator.git"
   },
     "dependencies": {
+    "inquirer": "^1.2.3"
   },
   "author": "lab-js <https://github.com/labs-js>",
   "license": "MIT",
