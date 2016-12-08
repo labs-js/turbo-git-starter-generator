@@ -8,3 +8,11 @@
 # PACKAGE_NAME
 
 PACKAGE_DESC
+
+#### This lib is part of the [Turbo Git](https://github.com/labs-js/turbo-git) -> Making your git even more awesome 😎🙌
+
+## how to use it:
+
+```
+npm install --save PACKAGE_NAME
+```
